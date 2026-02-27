@@ -1,13 +1,18 @@
 {
   "name": "shared",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
-    "@nestjs/common": "^10.0.0",
-    "@nestjs/passport": "^10.0.0",
-    "passport-jwt": "^4.0.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nestjs/passport": "^11.0.5",
+    "@types/passport-jwt": "^4.0.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
   }
 }
